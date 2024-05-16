@@ -1,1 +1,45 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Search</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="homeLink">Anime Search</h1>
+        <form id="searchForm">
+            <input type="text" id="animeInput" placeholder="Enter an anime title...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div id="animeInfo" class="anime-container"></div>
 
+    <div class="homepage-banner">
+        <h2>Welcome to Anime Search</h2>
+        <p> Utilize the search bar by entering Anime titles which will reveal detailed information about the seasons, episodes, description and additional insights.</p>
+        <div class="slideshow-container">
+            <img class="mySlides fade" src="/images/demonslayer.png" alt="Anime 1">
+            <img class="mySlides fade" src="/images/howls.jpg" alt="Anime 2">
+            <img class="mySlides fade" src="/images/hxh.jpg" alt="Anime 3">
+            <img class="mySlides fade" src="/images/jjk.jpg" alt="Anime 4">
+            <img class="mySlides fade" src="/images/aot.png" alt="Anime 5">
+            <img class="mySlides fade" src="/images/fma.jpg" alt="Anime 6">
+            <!-- Navigation dots -->
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+        </div>
+    </div>
+
+    <script src="/search.js"></script>
+    <script src="/slideshow.js"></script>
+</body>
+</html>

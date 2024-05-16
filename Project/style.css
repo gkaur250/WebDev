@@ -1,0 +1,171 @@
+body{
+    margin:0px;
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: rgb(233, 97, 245);
+    margin: 0;
+    font-family: fantasy;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#animeInput {
+    width: 300px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d150cf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.anime-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anime-result {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.anime-result img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.anime-info {
+    text-align: left;
+    font-size: 15px;
+}
+
+.anime-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.anime-info a {
+    color: #d150cf;
+    text-decoration: none;
+}
+
+.anime-info a:hover {
+    text-decoration: underline;
+}
+
+.anime-info p {
+    color: #555;
+}
+
+.anime-info p.rating {
+    color: #ffa500; /* Change rating color to orange */
+    font-weight: bold;
+}
+
+.anime-info p.airing {
+    /* color: #000000; Change airing status color to green */
+    font-weight: bold;
+}
+
+#homeLink{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* --------------------------------- */
+
+
+
+
+.homepage-banner {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.homepage-banner h2 {
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style the dots/bullets */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
