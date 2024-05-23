@@ -4,23 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Search</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Anime Search</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="/style.css"> <!-- Link to the external stylesheet -->
 </head>
 <body>
+    <!-- Header section containing the title and search form -->
     <div class="header">
-        <h1 id="homeLink">Anime Search</h1>
-        <form id="searchForm">
-            <input type="text" id="animeInput" placeholder="Enter an anime title...">
-            <button type="submit">Search</button>
+        <h1 id="homeLink">Anime Search</h1> <!-- Title that functions as a link to reload the page -->
+        <form id="searchForm"> <!-- Search form for entering anime titles -->
+            <input type="text" id="animeInput" placeholder="Enter an anime title..."> <!-- Input field for anime title -->
+            <button type="submit">Search</button> <!-- Submit button for the search form -->
         </form>
     </div>
+    <!-- Container to display anime information fetched from the server -->
     <div id="animeInfo" class="anime-container"></div>
 
+    <!-- Section for the homepage banner with a welcome message and slideshow -->
     <div class="homepage-banner">
         <h2>Welcome to Anime Search</h2>
         <p> Utilize the search bar by entering Anime titles which will reveal detailed information about the seasons, episodes, description and additional insights.</p>
+         <!-- Container for the slideshow -->
         <div class="slideshow-container">
+            <!-- Slideshow images with fade class -->
             <img class="mySlides fade" src="/images/demonslayer.png" alt="Anime 1">
             <img class="mySlides fade" src="/images/howls.jpg" alt="Anime 2">
             <img class="mySlides fade" src="/images/hxh.jpg" alt="Anime 3">
@@ -39,7 +44,7 @@
         </div>
     </div>
 
-    <script src="/search.js"></script>
-    <script src="/slideshow.js"></script>
+    <script src="/search.js"></script>  <!-- Link to the external JavaScript file for handling search functionality -->
+    <script src="/slideshow.js"></script> <!-- Link to the external JavaScript file for handling the slideshow functionality -->
 </body>
 </html>

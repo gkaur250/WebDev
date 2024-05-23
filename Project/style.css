@@ -1,8 +1,9 @@
+/* Set body margin to 0 and background color to black */
 body{
     margin:0px;
     background-color: black;
 }
-
+/* Style for the header section */
 .header {
     background-color: rgb(60, 60, 60);
     display: flex;
@@ -10,18 +11,18 @@ body{
     align-items: center;
     padding: 10px 20px;
 }
-
+/* Style for the main header title */
 h1 {
     color: rgb(233, 97, 245);
     margin: 0;
     font-family: fantasy;
 }
-
+/* Style for the search form */
 form {
     display: flex;
     align-items: center;
 }
-
+/* Style for the search input field */
 #animeInput {
     width: 300px;
     margin-right: 10px;
@@ -30,7 +31,7 @@ form {
     border-radius: 5px;
     font-size: 16px;
 }
-
+/* Style for the search button */
 button {
     padding: 10px 20px;
     background-color: #d150cf;
@@ -40,7 +41,7 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
-
+/* Container for displaying anime information */
 .anime-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,7 +49,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/* Style for each anime result card */
 .anime-result {
     width: calc(20% - 20px);
     margin-bottom: 20px;
@@ -57,46 +58,46 @@ button {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
+/* Style for anime images */
 .anime-result img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-
+/* Style for the anime information section */
 .anime-info {
     text-align: left;
     font-size: 15px;
 }
-
+/* Style for paragraphs inside the anime information */
 .anime-info p {
     margin: 5px 0;
     font-size: 14px;
 }
-
+/* Style for links inside the anime information */
 .anime-info a {
     color: #d150cf;
     text-decoration: none;
 }
-
+/* Hover effect for links */
 .anime-info a:hover {
     text-decoration: underline;
 }
-
+/* Color for paragraphs inside the anime information */
 .anime-info p {
     color: #555;
 }
-
+/* Specific style for rating paragraph */
 .anime-info p.rating {
     color: #ffa500; /* Change rating color to orange */
     font-weight: bold;
 }
-
+/* Specific style for airing status paragraph */
 .anime-info p.airing {
     /* color: #000000; Change airing status color to green */
     font-weight: bold;
 }
-
+/* Style for the home link to look like a pointer */
 #homeLink{
     cursor: pointer;
 }
@@ -111,24 +112,24 @@ button {
 
 
 
-
+/* Style for the homepage banner section */
 .homepage-banner {
     text-align: center;
     background-color: #333;
     color: white;
     padding: 50px 0;
 }
-
+/* Style for the homepage banner title */
 .homepage-banner h2 {
     margin-bottom: 20px;
 }
-
+/* Container for the slideshow */
 .slideshow-container {
     position: relative;
     max-width: 800px;
     margin: auto;
 }
-
+/* Style for images inside the slideshow */
 .slideshow-container img {
     width: 100%;
     height: auto;
@@ -146,7 +147,7 @@ button {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-
+/* Style for active dot and dot on hover */
 .active, .dot:hover {
     background-color: #717171;
 }
@@ -158,7 +159,7 @@ button {
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
+/* Keyframes for fade animation */
 @-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
