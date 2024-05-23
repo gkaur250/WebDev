@@ -13,12 +13,12 @@ Make sure you have the following installed on your system:
 ### Installation
 1. Clone the repository to your local machine.
     ```bash
-    git clone (insert link)
+    git clone (https://github.com/gkaur250/WebDev.git)
     ```
 
-2. Navigate to the project directory.
+2. Navigate to the project directory. Make sure you are in Project folder displayed on my Github. 
     ```bash
-    cd anime-search-app
+    cd Project
     ```
 
 3. Install the necessary dependencies.
